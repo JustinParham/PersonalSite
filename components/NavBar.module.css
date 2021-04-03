@@ -1,0 +1,48 @@
+.logo {
+  text-align: center;
+}
+
+.mainTitle {
+  text-align: center;
+  padding-right: 5px;
+  font-size: 2.5rem;
+}
+.navbar {
+  padding-top: 12px;
+  border-bottom: 2px solid black;
+  width: auto;
+}
+
+.navbar a {
+  margin-right: 12px;
+  margin-left: 10px;
+  padding: 0px 10px 5px 10px;
+  background-color: cornsilk;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+
+.navbar a:hover {
+  background-color: rgb(100, 139, 27);
+}
+
+.navArea {
+  border-top: 2px solid black;
+  padding-top: 1px;
+  background-color: slategray;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+  .navbar {
+    width: auto;
+  }
+  .navbar a {
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-align: center;
+    border: 2px solid black;
+  }
+}

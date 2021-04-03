@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  background-color: slategray;
+  border-top: 2px solid black;
+  flex-shrink: 0;
+  height: 50px;
+}
+
+.content {
+  flex: 1 0 auto;
+  background-color: cornsilk;
+  padding-bottom: 15px;
+}
+
+.footer div {
+  padding-top: 5px;
+}
+
+@media only screen and (max-width: 650px) {
+  .wrapper {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+}

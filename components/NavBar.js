@@ -18,9 +18,6 @@ export default function NavBar() {
           <Link href="/about">
             <a>About Me</a>
           </Link>
-          <Link href="/pokemonAPI">
-            <a>PokemonAPI</a>
-          </Link>
           <Link href="/projects">
             <a>Projects</a>
           </Link>

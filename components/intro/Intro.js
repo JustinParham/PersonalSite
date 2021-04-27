@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./intro.module.css";
+import classes from "./Intro.module.css";
 
 export default function IntroArea() {
   return (
@@ -15,7 +15,7 @@ export default function IntroArea() {
         </p>
         <p>
           I am a former College and High School Track and Field Coach who excels
-          in communication and technical explanations. I can 
+          in communication and technical explanations. I can
         </p>
       </div>
     </div>

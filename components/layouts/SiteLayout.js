@@ -3,8 +3,9 @@ import classes from "./SiteLayout.module.css";
 import NavBar from "../NavBar.js";
 import Head from "next/head";
 
-
 export default function SiteLayout(props) {
+  const yearVar = new Date();
+
   return (
     <>
       <Head>
@@ -15,7 +16,10 @@ export default function SiteLayout(props) {
         <NavBar navBarClass={classes.navBar} />
         <div className={classes.content}>{props.children}</div>
         <footer className={classes.footer}>
-          <div>Hi im the footer</div>
+          <nav>
+            <a href="mailto: justinjparham@gmail.com">Email</a>
+          </nav>
+          <div>&#169; {yearVar.getFullYear()}</div>
         </footer>
       </div>
     </>

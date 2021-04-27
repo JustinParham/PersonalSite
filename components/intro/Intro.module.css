@@ -1,0 +1,40 @@
+.introArea {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introArea img {
+  border-radius: 50%;
+  height: 400px;
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  margin-left: 20px;
+  box-shadow: -10px 5px 5px darkgray;
+}
+
+.imageAreaText {
+  margin-left: 30px;
+  font-size: 1.3rem;
+  max-width: 75ch;
+  margin-right: 40px;
+}
+
+@media only screen and (max-width: 650px) {
+  .introArea img {
+    border-radius: 50%;
+    height: 175px;
+    width: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .imageAreaText {
+    margin-left: 10px;
+    font-size: 1rem;
+    max-width: 75ch;
+    margin-right: 40px;
+  }
+}

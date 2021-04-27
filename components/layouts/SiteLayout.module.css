@@ -7,16 +7,18 @@
 
 .footer {
   text-align: center;
-  background-color: slategray;
+  background-color: inherit;
   border-top: 2px solid black;
   flex-shrink: 0;
-  height: 50px;
+  height: 75px;
+  color: white;
+  font-size: 1.1rem;
+  padding-top: 15px;
 }
 
 .content {
   flex: 1 0 auto;
-  background-color: cornsilk;
-  padding-bottom: 15px;
+  background-color: #fdf9ea;
 }
 
 .footer div {

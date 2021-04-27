@@ -1,36 +1,39 @@
 .logo {
   text-align: center;
+  padding-top: 10px;
 }
 
 .mainTitle {
   text-align: center;
+  color: #ffffff;
   padding-right: 5px;
   font-size: 2.5rem;
+  margin-top: 16px;
 }
 .navbar {
-  padding-top: 12px;
+  padding-top: 10px;
   border-bottom: 2px solid black;
   width: auto;
 }
 
 .navbar a {
-  margin-right: 12px;
-  margin-left: 10px;
-  padding: 0px 10px 5px 10px;
-  background-color: cornsilk;
+  padding: 4px 10px 5px 10px;
+  background-color: #fdf9ea;
   font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 3px;
   border-radius: 10px;
 }
 
 .navbar a:hover {
-  background-color: rgb(100, 139, 27);
+  background-color: #305785;
+  text-decoration: underline;
 }
 
 .navArea {
-  border-top: 2px solid black;
-  padding-top: 1px;
-  background-color: slategray;
+  background-color: inherit;
   padding-bottom: 5px;
+  margin-bottom: 3px;
   width: 100%;
 }
 
@@ -38,11 +41,19 @@
   .navbar {
     width: auto;
   }
+  .navArea {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
   .navbar a {
     display: block;
     margin-bottom: 2px;
     margin-top: 2px;
+    justify-content: center;
     text-align: center;
+    width: 95vw;
     border: 2px solid black;
   }
 }

@@ -1,11 +1,12 @@
-import React from "react";
-
-import SiteLayout from "../components/layouts/SiteLayout";
+import React, { Fragment } from "react";
+import Intro from "../components/intro/Intro";
+import About from "../components/about/About";
 
 export default function Home() {
   return (
-    <>
-      <h1>Introduction Area</h1>
-    </>
+    <Fragment>
+      <Intro />
+      <About />
+    </Fragment>
   );
 }

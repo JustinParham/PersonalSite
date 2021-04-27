@@ -8,11 +8,12 @@ const dummyProjects = [
     projectURL: "http://Catidedata.herokuapp.com",
   },
   {
-    title: "SampleProject2",
-    description: "This is another sample project that does some function",
-    imageURL: "/images/Spotted Bass.jpg",
-    id: "14",
-    projectURL: "",
+    title: "Pokemon Data Site",
+    description:
+      "Small site that uses data pulled from PokeAPI to lookup pokemon by number, as well as contains a pokemon matching game",
+    imageURL: "/images/projectImages/pokeAPI.jpg",
+    id: "2",
+    projectURL: "https://poke-site.herokuapp.com/",
   },
   {
     title: "SampleProject3",
@@ -24,7 +25,7 @@ const dummyProjects = [
 ];
 
 export function findProject(projectID) {
-  return dummyProjects.find((item) => item.id === projectID);
+  return dummyProjects.find(item => item.id === projectID);
 }
 
 export default dummyProjects;

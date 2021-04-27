@@ -41,10 +41,11 @@
 @media only screen and (max-width: 650px) {
   .image {
     width: 100%;
-    height: 150px;
+    height: 200px;
     position: relative;
     border: 0px;
   }
+
   .contentArea {
     font-size: 1.5rem;
     display: block;

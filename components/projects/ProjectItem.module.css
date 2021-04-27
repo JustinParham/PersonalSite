@@ -2,7 +2,7 @@
   background-color: slategray;
   font-size: 1.2rem;
   position: relative;
-  height: 150px;
+  height: 200px;
   border: 2px solid black;
   margin-bottom: 15px;
   margin-right: 20px;
@@ -15,7 +15,7 @@
 
 .image {
   width: 200px;
-  height: 150px;
+  height: 200px;
   position: absolute;
   left: 0;
   border-right: 2px solid black;

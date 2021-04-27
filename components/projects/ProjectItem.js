@@ -11,7 +11,7 @@ export default function ProjectItem(props) {
           <Image
             src={props.imageURL}
             alt={props.title}
-            height={150}
+            height={200}
             width={200}
           />
         </div>

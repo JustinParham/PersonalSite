@@ -16,7 +16,7 @@ export default function About() {
             <li>Next.js</li>
           </ul>
         </div>
-        <img src="/images/computer.jpg" />
+        <img src="/images/Computer.jpg" />
       </div>
       <div className={classes.extraDiv}>
         <h4>See Project page for some work examples</h4>

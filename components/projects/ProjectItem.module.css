@@ -7,10 +7,12 @@
   margin-bottom: 15px;
   margin-right: 20px;
   box-shadow: 5px 7px 1px darkgray;
+  transition: background-color 2s;
 }
 
 .projectItem:hover {
   cursor: pointer;
+  background-color: #b1cae4;
 }
 
 .image {

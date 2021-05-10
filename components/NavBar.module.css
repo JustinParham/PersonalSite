@@ -23,6 +23,7 @@
   font-weight: bold;
   margin-left: 3px;
   border-radius: 10px;
+  transition: background-color 1s, underline 2s;
 }
 
 .navbar a:hover {

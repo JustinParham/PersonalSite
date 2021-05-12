@@ -19,6 +19,9 @@ export default function About() {
         <img src="/images/Computer.jpg" />
       </div>
       <div className={classes.extraDiv}>
+        <h4>
+          <a href="https://github.com/JustinParham">Github</a>
+        </h4>
         <h4>See Project page for some work examples</h4>
       </div>
     </Fragment>

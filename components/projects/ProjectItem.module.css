@@ -1,5 +1,5 @@
 .projectItem {
-  background-color: slategray;
+  background-color: #b1cae4;
   font-size: 1.2rem;
   position: relative;
   height: 200px;
@@ -12,7 +12,7 @@
 
 .projectItem:hover {
   cursor: pointer;
-  background-color: #b1cae4;
+  background-color: slategray;
 }
 
 .image {
